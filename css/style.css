@@ -1,3 +1,13 @@
 body {
-  text-align: center;
+	text-align: center;
+}
+
+#timeline {
+	margin: 40px;
+	text-align: left;
+	font-family: 'Inconsolata', monospace;
+}
+
+.d {
+	display: inline-block;
 }
