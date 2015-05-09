@@ -32,12 +32,9 @@ var timeline = function() {
 		// Enter…
 		sel.enter().append("div")
 			.attr("class","d")
-			// .style("background-color", function(d) {
-			// 	return("rgba(102, 51, 0, " + (d*0.005) + ")");
+			// .style("color", function(d,i) {
+			// 	return("rgba(0,0,0, " + (i>(so_far+360)? 1/(Math.pow(10,-14)*Math.pow(i-(so_far+360), 5)) : 1) + ")");
 			// } )
-			.style("color", function(d,i) {
-				return("rgba(0,0,0, " + (i>(so_far+360)? 1/(Math.pow(10,-14)*Math.pow(i-(so_far+360), 5)) : 1) + ")");
-			} )
 		    .text(String);
 		// Exit…
 		sel.exit().remove();	
@@ -45,7 +42,7 @@ var timeline = function() {
 
 	var create_year_integers = function() {
 		var d_start = new Date(2014, 9, 2);
-		var years = [2015, 2016, 2017, 2018, 2019, 2020]
+		var years = [2015, 2016, 2017, 2018, 2019]
 
 		for (var i = 0; i < years.length; i++) {
 			var d_next = new Date(years[i], 9, 2);
