@@ -2,10 +2,15 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-size: 600%; 
+}
+
 #timeline {
 	margin: 40px;
 	text-align: left;
 	font-family: 'Inconsolata', monospace;
+	font-size: x-large;
 }
 
 .d {
