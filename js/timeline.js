@@ -3,13 +3,12 @@ function DATE(year, month , day) {
 	return new Date(year, month-1, day); // 0 = January
 }
 
-
-var rep = function(n, value) {
+function rep(n, value) {
 	if (n < 0) { n = 0; }
 	return(Array.apply(null, new Array(n)).map(function(){return value}))
 }
 
-var days = function(date) {
+function days(date) {
 	var minutes = 1000 * 60;
 	var hours = minutes * 60;
 	var days = hours * 24;
