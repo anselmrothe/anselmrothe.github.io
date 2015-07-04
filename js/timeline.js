@@ -1,4 +1,9 @@
 
+function DATE(year, month , day) {
+	return new Date(year, month-1, day); // 0 = January
+}
+
+
 var rep = function(n, value) {
 	if (n < 0) { n = 0; }
 	return(Array.apply(null, new Array(n)).map(function(){return value}))
@@ -13,9 +18,9 @@ var days = function(date) {
 	return(date_days)
 }
 
-// var d_start = new Date(2014, 9, 2);
+// var d_start = new DATE(2014, 9, 2);
 // var d_today = new Date();
-// var d_end   = new Date(2021, 5, 31);
+// var d_end   = new DATE(2021, 5, 31);
 
 // var so_far  = days(d_today) - days(d_start);
 // var to_come = days(d_end)   - days(d_today);
@@ -41,19 +46,19 @@ var timeline = function() {
 	}
 
 	var create_year_integers = function() {
-		var d_start = new Date(2014, 9, 2);
 		var years = [2015, 2016, 2017, 2018, 2019]
+		var d_this = d_start;
 
 		for (var i = 0; i < years.length; i++) {
-			var d_next = new Date(years[i], 9, 2);
-			var days_next  = days(d_next) - days(d_start);
+			var d_next = new DATE(years[i], 9, 2);
+			var days_next  = days(d_next) - days(d_this);
 			data = data.concat(rep(days_next, i+1));
-			d_start = d_next;
+			d_this = d_next;
 		};
 	}
 
 	var create_dots_for_past = function() {
-		var d_start = new Date(2014, 9, 2);
+		
 		var d_today = new Date();
 		so_far  = days(d_today) - days(d_start);
 
@@ -63,6 +68,7 @@ var timeline = function() {
 	}
 
 	var data = [];
+	var d_start = new DATE(2014, 9, 2);
 
 	create_year_integers();
 	create_dots_for_past();
