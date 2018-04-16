@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Anselm Rothe</title>
+    <link>https://anselmrothe.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on Anselm Rothe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anselmrothe.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Successful structure learning from observational data</title>
+      <link>https://anselmrothe.github.io/publication/2018causalstructure/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do people ask good questions?</title>
+      <link>https://anselmrothe.github.io/publication/2018questions/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,5 @@
+
+/* # To disabled the [CONTINUE READING] button in posts */
+.read-more {
+  display: none;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Anselm Rothe</title>
+    <link>https://anselmrothe.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Anselm Rothe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anselmrothe.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grounding compositional hypothesis generation in specific instances</title>
+      <link>https://anselmrothe.github.io/publication/2018cogsci_zendo/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018cogsci_zendo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling second-language learning from a psychological perspective</title>
+      <link>https://anselmrothe.github.io/publication/2018duolingo/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018duolingo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topics and trends in cognitive science</title>
+      <link>https://anselmrothe.github.io/publication/2018cogsci_dtm/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018cogsci_dtm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Question asking as program generation</title>
+      <link>https://anselmrothe.github.io/publication/2017nips/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2017nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asking and evaluating natural language questions</title>
+      <link>https://anselmrothe.github.io/publication/2016cogsci/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2016cogsci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal status meets coherence: The explanatory role of causal models in categorization</title>
+      <link>https://anselmrothe.github.io/publication/2012cogsci/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2012cogsci/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
