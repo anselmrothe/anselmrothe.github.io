@@ -3,3 +3,80 @@
 .read-more {
   display: none;
 }
+
+.home-section:first-of-type {
+  padding-top: 0;
+}
+
+.home-section {
+  padding: 20px 0 20px 0;
+}
+
+a {
+  color: #5b9ff4;
+  /* color: #86649b; */
+  /* color: #b76a4e; */
+}
+
+a:hover, a:focus {
+  /* color: #4d87d0; */
+  /* color: #86649b; */
+}
+
+html {
+  /* font-family: Helvetica, sans-serif; */
+  /* font-family: "Fira Sans", sans-serif; */
+  /* line-height: 1.65; */
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+/*
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+} */
+
+.article-metadata {
+  font-size: .6rem;
+}
+
+.article-style {
+  font-size: .75rem;
+}
+
+.article-title {
+  margin-top: 0rem;
+  font-size: 1rem;
+}
+
+.pub-list-item {
+  font-size: .8rem;
+}
+
+.pub-list-item .pub-authors {
+  font-size: .8rem;
+  /* color: #86649b; */
+  color: #4d87d0;
+}
+
+.pub-list-item .pub-publication {
+  font-size: .8rem;
+  /* color: #86649b; */
+  color: #725586;
+  /* color: #b76a4e; */
+}
+
+.card-simple {
+  margin-top: 5px;
+}
