@@ -18,7 +18,7 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018cogsci_zendo/</guid>
-      <description></description>
+      <description>Abstract A number of recent computational models treat concept learning as a form of probabilistic rule induction in a space of language-like, compositional concepts. Inference in such models frequently requires repeatedly sampling from a (infinite) distribution over possible concept rules and comparing their relative likelihood in light of current data or evidence. However, we argue that most existing algorithms for top-down sampling are inefficient and cognitively implausible accounts of human hypothesis generation.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018duolingo/</guid>
-      <description></description>
+      <description>Abstract Psychological research on learning and memory has tended to emphasize small-scale laboratory studies. However, large datasets of people using educational software provide opportunities to explore these issues from anew perspective. In this paper we describe our approach to the Duolingo Second Language Acquisition Modeling (SLAM) competition which was run in early 2018. We used a well known class of algorithms (gradient boosted decision trees), with features partially informed by theories from the psychological literature.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
-      <description></description>
+      <description>coming soon</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018cogsci_dtm/</guid>
-      <description></description>
+      <description>Abstract What are the major topics of the Cognitive Science Society conference? How have they changed over the years? To answer these questions, we applied an unsupervised learning algorithm known as dynamic topic modeling (Blei &amp;amp; Lafferty, 2006) to the 2000–2017 Proceedings of the Cognitive Science Society. Unlike traditional topic models, a dynamic topic model is sensitive to the temporal context of documents and can characterize the evolution of each topic across years.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
-      <description></description>
+      <description>Abstract People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2017nips/</guid>
-      <description></description>
+      <description>Abstract A hallmark of human intelligence is the ability to ask rich, creative, and revealing questions. Here we introduce a cognitive model capable of constructing human-like questions. Our approach treats questions as formal programs that, when executed on the state of the world, output an answer. The model specifies a probability distribution over a complex, compositional space of programs, favoring concise programs that help the agent learn in the current context.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2016cogsci/</guid>
-      <description></description>
+      <description>See the extended version of this project &amp;rarr; here</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2012cogsci/</guid>
-      <description></description>
+      <description>Abstract Research on causal-based categorization has found two competing effects: According to the causal-status hypothesis, people consider causally central features more than less central ones. In contrast, people often focus upon feature patterns that are coherent with the category’s causal model (coherence hypothesis). Following up on the proposal that categorization can be seen as inference to the best explanation (e.g., Murphy &amp;amp; Medin, 1985), we propose that causal models might serve different explanatory roles.</description>
     </item>
     
   </channel>

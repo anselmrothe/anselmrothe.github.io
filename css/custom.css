@@ -1,4 +1,10 @@
 
+/* Hoverting over portrait changes it */
+#profile .portrait:hover {
+    /*!important overrides the style in the html*/
+    background-image: url('/img/trying2.jpg')!important;
+}
+
 /* # To disabled the [CONTINUE READING] button in posts */
 .read-more {
   display: none;
@@ -52,7 +58,7 @@ h4, h5, h6 {
 }
 
 .article-style {
-  font-size: .75rem;
+  font-size: .9rem;
 }
 
 .article-title {
@@ -61,17 +67,17 @@ h4, h5, h6 {
 }
 
 .pub-list-item {
-  font-size: .8rem;
+  font-size: .85rem;
 }
 
 .pub-list-item .pub-authors {
-  font-size: .8rem;
+  font-size: .85rem;
   /* color: #86649b; */
   color: #4d87d0;
 }
 
 .pub-list-item .pub-publication {
-  font-size: .8rem;
+  font-size: .85rem;
   /* color: #86649b; */
   color: #725586;
   /* color: #b76a4e; */
@@ -79,4 +85,9 @@ h4, h5, h6 {
 
 .card-simple {
   margin-top: 5px;
+}
+
+.pub-banner {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }

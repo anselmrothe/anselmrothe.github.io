@@ -25,7 +25,13 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018cogsci_zendo/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;A number of recent computational models treat concept learning as a form of probabilistic rule induction in a space of language-like, compositional concepts.  Inference in such models frequently requires repeatedly sampling from a (infinite) distribution over possible concept rules and comparing their relative likelihood in light of current data or evidence.  However, we argue that most existing algorithms for top-down sampling are inefficient and cognitively implausible accounts of human hypothesis generation.  As a result, we propose an alternative, Instance Driven Generator (IDG), that constructs bottom-up hypotheses directly out of encountered positive instances of a concept. Using a novel rule induction task based on the children&amp;rsquo;s game Zendo, we compare these &amp;ldquo;bottom-up&amp;rdquo; and &amp;ldquo;top-down&amp;rdquo; approaches to inference.  We find that the bottom-up IDG model accounts better for human inferences and results in a computationally more tractable inference mechanism for concept learning models based on a probabilistic language of thought.&lt;/p&gt;
 </description>
     </item>
     
@@ -35,7 +41,13 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018duolingo/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;Psychological research on learning and memory has tended to emphasize small-scale laboratory studies. However, large datasets of people using educational software provide opportunities to explore these issues from anew perspective. In this paper we describe our approach to the Duolingo Second Language Acquisition Modeling (SLAM) competition which was run in early 2018. We used a well known class of algorithms (gradient boosted decision trees), with features partially informed by theories from the psychological literature. After detailing our modeling approach and a number of supplementary simulations, we reflect on the degree to which psychological theory aided the model, and the potential for cognitive science and predictive modeling competitions to gain from each other.&lt;/p&gt;
 </description>
     </item>
     
@@ -46,6 +58,8 @@
       
       <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;p&gt;&lt;em&gt;coming soon&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -55,7 +69,13 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018cogsci_dtm/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;What are the major topics of the Cognitive Science Society conference? How have they changed over the years? To answer these questions, we applied an unsupervised learning algorithm known as dynamic topic modeling (Blei &amp;amp; Lafferty, 2006) to the 2000–2017 Proceedings of the Cognitive Science Society. Unlike traditional topic models, a dynamic topic model is sensitive to the temporal context of documents and can characterize the evolution of each topic across years. Using this model, we identify historical trends in the popularity of topics over time, and shifts in word use within topics indicative of changing focuses within the field. We also measure the correlation across topics, and use the model to highlight the topic structure of particular papers and labs. We believe dynamic topic models present an important tool towards understanding Cognitive Science as it continues to grow and evolve over time.&lt;/p&gt;
 </description>
     </item>
     
@@ -65,7 +85,13 @@
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).  In subsequent experiments, participants strongly preferred the best questions when evaluating questions that they did not generate themselves (Experiments 2 &amp;amp; 3).On the one hand, our results show that people can accurately evaluate question quality, even when the set of questions is diverse and an ideal-observer analysis has large computational requirements. On the other hand, people have a limited ability to synthesize maximally-informative questions from scratch, suggesting a bottleneck in the question asking process.&lt;/p&gt;
 </description>
     </item>
     
@@ -75,7 +101,13 @@
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2017nips/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;A hallmark of human intelligence is the ability to ask rich, creative, and revealing questions. Here we introduce a cognitive model capable of constructing human-like questions. Our approach treats questions as formal programs that, when executed on the state of the world, output an answer. The model specifies a probability distribution over a complex, compositional space of programs, favoring concise programs that help the agent learn in the current context. We evaluate our approach by modeling the types of open-ended questions generated by humans who were attempting to learn about an ambiguous situation in a game. We find that our model predicts what questions people will ask, and can creatively produce novel questions that were not present in the training set. In addition, we compare a number of model variants, finding that both question informativeness and complexity are important for producing human-like questions.&lt;/p&gt;
 </description>
     </item>
     
@@ -86,6 +118,8 @@
       
       <guid>https://anselmrothe.github.io/publication/2016cogsci/</guid>
       <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;p&gt;&lt;em&gt;See the extended version of this project &lt;a href=&#34;https://anselmrothe.github.io/publication/2018questions/&#34;&gt;&amp;rarr; here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -95,7 +129,13 @@
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/publication/2012cogsci/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;Research on causal-based categorization has found two competing effects: According to the causal-status hypothesis, people consider causally central features more than less central ones. In contrast, people often focus upon feature patterns that are coherent with the category’s causal model (coherence hypothesis). Following up on the proposal that categorization can be seen as inference to the best explanation (e.g., Murphy &amp;amp; Medin, 1985), we propose that causal models might serve different explanatory roles. First, a causal model can serve as an explanation why the prototype of a category is as it is. Second, a causal model can also serve as an explanation why an exemplar might deviate from the prototype. In an experiment, we manipulated whether typical or atypical features were linked by causal mechanism. We found a causal-status effect in the first case and a coherence effect in the latter one, suggesting both are faces of the same coin.&lt;/p&gt;
 </description>
     </item>
     
