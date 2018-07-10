@@ -7,17 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title></title>
-      <link>https://anselmrothe.github.io/post/dtm/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://anselmrothe.github.io/post/dtm/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Grounding compositional hypothesis generation in specific instances</title>
@@ -81,6 +72,15 @@
 
 &lt;p&gt;What are the major topics of the Cognitive Science Society conference? How have they changed over the years? To answer these questions, we applied an unsupervised learning algorithm known as dynamic topic modeling (Blei &amp;amp; Lafferty, 2006) to the 2000–2017 Proceedings of the Cognitive Science Society. Unlike traditional topic models, a dynamic topic model is sensitive to the temporal context of documents and can characterize the evolution of each topic across years. Using this model, we identify historical trends in the popularity of topics over time, and shifts in word use within topics indicative of changing focuses within the field. We also measure the correlation across topics, and use the model to highlight the topic structure of particular papers and labs. We believe dynamic topic models present an important tool towards understanding Cognitive Science as it continues to grow and evolve over time.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://anselmrothe.github.io/post/dtm/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://anselmrothe.github.io/post/dtm/</guid>
+      <description></description>
     </item>
     
     <item>
