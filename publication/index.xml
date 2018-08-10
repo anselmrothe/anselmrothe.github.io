@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Successful structure learning from observational data</title>
+      <link>https://anselmrothe.github.io/publication/2018causalstructure/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
+      <description>Abstract Previous work suggests that humans find it difficult to learn the structure of causal systems given observational data alone. We identify two conditions that enable successful structure learning from observational data: people succeed if the underlying causal system is deterministic, and if each pattern of observations has a single root cause. In four experiments, we show that either condition alone is sufficient to enable high levels of performance, but that performance is poor if neither condition applies.</description>
+    </item>
+    
+    <item>
+      <title>Do people ask good questions?</title>
+      <link>https://anselmrothe.github.io/publication/2018questions/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
+      <description>Abstract People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).</description>
+    </item>
+    
+    <item>
+      <title>Topics and trends in cognitive science</title>
+      <link>https://anselmrothe.github.io/publication/2018cogsci_dtm/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018cogsci_dtm/</guid>
+      <description>Abstract What are the major topics of the Cognitive Science Society conference? How have they changed over the years? To answer these questions, we applied an unsupervised learning algorithm known as dynamic topic modeling (Blei &amp;amp; Lafferty, 2006) to the 2000–2017 Proceedings of the Cognitive Science Society. Unlike traditional topic models, a dynamic topic model is sensitive to the temporal context of documents and can characterize the evolution of each topic across years.</description>
+    </item>
+    
+    <item>
       <title>Grounding compositional hypothesis generation in specific instances</title>
       <link>https://anselmrothe.github.io/publication/2018cogsci_zendo/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
@@ -28,33 +55,6 @@
       
       <guid>https://anselmrothe.github.io/publication/2018duolingo/</guid>
       <description>Abstract Psychological research on learning and memory has tended to emphasize small-scale laboratory studies. However, large datasets of people using educational software provide opportunities to explore these issues from anew perspective. In this paper we describe our approach to the Duolingo Second Language Acquisition Modeling (SLAM) competition which was run in early 2018. We used a well known class of algorithms (gradient boosted decision trees), with features partially informed by theories from the psychological literature.</description>
-    </item>
-    
-    <item>
-      <title>Successful structure learning from observational data</title>
-      <link>https://anselmrothe.github.io/publication/2018causalstructure/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
-      <description>Abstract Previous work suggests that humans find it difficult to learn the structure of causal systems given observational data alone. We identify two conditions that enable successful structure learning from observational data: people succeed if the underlying causal system is deterministic, and if each pattern of observations has a single root cause. In four experiments, we show that either condition alone is sufficient to enable high levels of performance, but that performance is poor if neither condition applies.</description>
-    </item>
-    
-    <item>
-      <title>Topics and trends in cognitive science</title>
-      <link>https://anselmrothe.github.io/publication/2018cogsci_dtm/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://anselmrothe.github.io/publication/2018cogsci_dtm/</guid>
-      <description>Abstract What are the major topics of the Cognitive Science Society conference? How have they changed over the years? To answer these questions, we applied an unsupervised learning algorithm known as dynamic topic modeling (Blei &amp;amp; Lafferty, 2006) to the 2000–2017 Proceedings of the Cognitive Science Society. Unlike traditional topic models, a dynamic topic model is sensitive to the temporal context of documents and can characterize the evolution of each topic across years.</description>
-    </item>
-    
-    <item>
-      <title>Do people ask good questions?</title>
-      <link>https://anselmrothe.github.io/publication/2018questions/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
-      <description>Abstract People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).</description>
     </item>
     
     <item>
