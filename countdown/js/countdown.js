@@ -15,7 +15,7 @@ function days(date) {
 countdown = function() {
 	var d_end = new DATE(2019, 7, 31);
 	var d_today = new Date();
-	days_left  = days(d_end) - days(d_today);
+	days_left  = days(d_end) - days(d_today) + 1;
 	text = String(days_left) + " days"
 	document.getElementById('countdown').innerHTML = text;
 }
