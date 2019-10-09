@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://anselmrothe.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Academic</title>
       <link>https://anselmrothe.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
       <guid>https://anselmrothe.github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
@@ -28,7 +28,7 @@
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anselmrothe.github.io/home/about/</guid>
-      <description>Biography I am a 5th year PhD student at New York University. Advised by Todd Gureckis and Brenden Lake, I am studying how people and machines ask questions. Asking questions is one of the human mind&amp;rsquo;s greatest tools to learn about the world. I am fascinated by the comparison of human learning (cognitive science) and machine learning (artificial intelligence), and how insights in one domain can inform the other. From this perspective, I have also worked on other research projects, for example investigating how people infer an underlying causal structure based on a few observations.</description>
+      <description>Biography I am a postdoc working with Azzurra Ruggeri. I did my PhD with Todd Gureckis and Brenden Lake. I am studying how people and machines ask questions. Asking questions is one of the human mind&amp;rsquo;s greatest tools to learn about the world. I am fascinated by the comparison of human learning (cognitive science) and machine learning (artificial intelligence), and how insights in one domain can inform the other. From this perspective, I have also worked on other research projects, for example investigating how people infer an underlying causal structure based on a few observations.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
     <item>
       <title>Selected Publications</title>
       <link>https://anselmrothe.github.io/home/publications_selected/</link>
-      <pubDate>Sun, 15 Apr 2018 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://anselmrothe.github.io/home/publications_selected/</guid>
       <description></description>
@@ -52,7 +52,7 @@
     <item>
       <title>All Publications</title>
       <link>https://anselmrothe.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://anselmrothe.github.io/home/publications/</guid>
       <description></description>
@@ -90,7 +90,7 @@ I am a teaching instructor for the following courses at University X:
     <item>
       <title>Tags</title>
       <link>https://anselmrothe.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
       <guid>https://anselmrothe.github.io/home/tags/</guid>
       <description></description>

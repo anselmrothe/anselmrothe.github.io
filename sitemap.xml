@@ -41,24 +41,6 @@
     
     <url>
     
-      <loc>https://anselmrothe.github.io/post/dtm/</loc>
-      <lastmod>2018-04-17T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://anselmrothe.github.io/post/</loc>
-      <lastmod>2018-04-01T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://anselmrothe.github.io/publication/2018cogsci_zendo/</loc>
       <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     </url>
@@ -70,6 +52,24 @@
     
       <loc>https://anselmrothe.github.io/publication/2018duolingo/</loc>
       <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://anselmrothe.github.io/post/dtm/</loc>
+      <lastmod>2018-04-17T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://anselmrothe.github.io/post/</loc>
+      <lastmod>2018-04-01T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -125,7 +125,7 @@
     <url>
     
       <loc>https://anselmrothe.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
