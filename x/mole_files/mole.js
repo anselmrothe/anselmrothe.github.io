@@ -2,6 +2,8 @@
 
 main = function() {
 	// main() is called in mturk.html
-	data = document.getElementById('data');
-	data.value = 'abcabc';
+	window.setTimeout(function() {
+		data = document.getElementById('data');
+		data.value = 'abcabc';
+	}, 2 * 1000);
 }
