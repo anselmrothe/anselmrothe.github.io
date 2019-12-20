@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://anselmrothe.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Do people ask good questions?</title>
+      <link>https://anselmrothe.github.io/publication/2018questions/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
+      <description>Abstract People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).</description>
+    </item>
     
     <item>
       <title>Successful structure learning from observational data</title>
@@ -19,15 +28,6 @@
       
       <guid>https://anselmrothe.github.io/publication/2018causalstructure/</guid>
       <description>Abstract Previous work suggests that humans find it difficult to learn the structure of causal systems given observational data alone. We identify two conditions that enable successful structure learning from observational data: people succeed if the underlying causal system is deterministic, and if each pattern of observations has a single root cause. In four experiments, we show that either condition alone is sufficient to enable high levels of performance, but that performance is poor if neither condition applies.</description>
-    </item>
-    
-    <item>
-      <title>Do people ask good questions?</title>
-      <link>https://anselmrothe.github.io/publication/2018questions/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
-      <description>Abstract People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).</description>
     </item>
     
   </channel>

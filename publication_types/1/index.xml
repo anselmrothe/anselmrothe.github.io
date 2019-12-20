@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://anselmrothe.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asking goal-oriented questions and learning from answers</title>
+      <link>https://anselmrothe.github.io/publication/2019cogsci_questions/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2019cogsci_questions/</guid>
+      <description>Abstract The study of question asking in humans and machines has gained attention in recent years. A key aspect of question ask- ing is the ability to select good (informative) questions from a provided set. Machines —in particular neural networks— generally struggle with two important aspects of question asking, namely to learn from the answer to their selected question and to flexibly adjust their questioning to new goals. In the present paper, we show that people are sensitive to both of these aspects and describe a unified Bayesian account of question asking that is capable of similar ingenuity.</description>
+    </item>
     
     <item>
       <title>Topics and trends in cognitive science</title>

@@ -11,6 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Asking goal-oriented questions and learning from answers</title>
+      <link>https://anselmrothe.github.io/publication/2019cogsci_questions/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2019cogsci_questions/</guid>
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;The study of question asking in humans and machines has gained attention in recent years. A key aspect of question ask- ing is the ability to select good (informative) questions from a provided set. Machines —in particular neural networks— generally struggle with two important aspects of question asking, namely to learn from the answer to their selected question and to flexibly adjust their questioning to new goals. In the present paper, we show that people are sensitive to both of these aspects and describe a unified Bayesian account of question asking that is capable of similar ingenuity. In the first experiment, we predict people’s judgments when adjusting their question-asking towards a particular goal. In the second experiment, we predict people’s judgments when deciding what follow-up question to ask. An alternative model based on superficial features, such as the existence of certain key words in the questions, was not able to capture these judgments to a reasonable degree.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do people ask good questions?</title>
+      <link>https://anselmrothe.github.io/publication/2018questions/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
+      <description>
+
+&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).  In subsequent experiments, participants strongly preferred the best questions when evaluating questions that they did not generate themselves (Experiments 2 &amp;amp; 3). On the one hand, our results show that people can accurately evaluate question quality, even when the set of questions is diverse and an ideal-observer analysis has large computational requirements. On the other hand, people have a limited ability to synthesize maximally-informative questions from scratch, suggesting a bottleneck in the question asking process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Successful structure learning from observational data</title>
       <link>https://anselmrothe.github.io/publication/2018causalstructure/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
@@ -23,22 +55,6 @@
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 
 &lt;p&gt;Previous work suggests that humans find it difficult to learn the structure of causal systems given observational data alone. We identify two conditions that enable successful structure learning from observational data: people succeed if the underlying causal system is deterministic, and if each pattern of observations has a single root cause. In four experiments, we show that either condition alone is sufficient to enable high levels of performance, but that performance is poor if neither condition applies. A fifth experiment suggests that neither determinism nor root sparsity takes priority over the other. Our data are broadly consistent with a Bayesian model that embodies a preference for structures that make the observed data not only possible but probable.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Do people ask good questions?</title>
-      <link>https://anselmrothe.github.io/publication/2018questions/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://anselmrothe.github.io/publication/2018questions/</guid>
-      <description>
-
-&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
-
-&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
-
-&lt;p&gt;People ask questions in order to efficiently learn about the world. But do people ask good questions? In this work, we designed an intuitive, game-based task that allowed people to ask natural language questions to resolve their uncertainty. Question quality was measured through Bayesian ideal-observer models that considered large spaces of possible game states. During free-form question generation, participants asked a creative variety of useful and goal-directed questions, yet they rarely asked the best questions as identified by the Bayesian ideal-observers (Experiment 1).  In subsequent experiments, participants strongly preferred the best questions when evaluating questions that they did not generate themselves (Experiments 2 &amp;amp; 3). On the one hand, our results show that people can accurately evaluate question quality, even when the set of questions is diverse and an ideal-observer analysis has large computational requirements. On the other hand, people have a limited ability to synthesize maximally-informative questions from scratch, suggesting a bottleneck in the question asking process.&lt;/p&gt;
 </description>
     </item>
     
