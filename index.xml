@@ -11,6 +11,30 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title></title>
+      <link>https://anselmrothe.github.io/post/mole_cogsci2020/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://anselmrothe.github.io/post/mole_cogsci2020/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;online conference poster for &lt;strong&gt;CogSci2020&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;learning-sequential-patterns-from-graphical-programs&#34;&gt;Learning sequential patterns from graphical programs&lt;/h1&gt;
+
+&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
+
+&lt;h4 id=&#34;method&#34;&gt;Method&lt;/h4&gt;
+
+&lt;h4 id=&#34;results&#34;&gt;Results&lt;/h4&gt;
+
+&lt;h4 id=&#34;discussion&#34;&gt;Discussion&lt;/h4&gt;
+
+&lt;p&gt;Hello&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Asking goal-oriented questions and learning from answers</title>
       <link>https://anselmrothe.github.io/publication/2019cogsci_questions/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
