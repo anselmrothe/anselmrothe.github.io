@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Experiment</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="mole.png">
+    </head>
+    <body>
+        <!-- experiment -->
+        <div id="center_area">
+            <canvas height="200" id="box1" width="200"></canvas> <span>&nbsp;</span>
+            <canvas height="100" id="box2" width="200"></canvas> <span>&nbsp;</span>
+            <div id="navigation">&nbsp;</div>
+        </div>
+        
+        <br>
+        
+        <div id="below">
+            <br>
+            <textarea cols="60" id="describeField" name="Comment" rows="2" placeholder="Please describe the pattern in a few words"></textarea>
+        </div>
+        <div id="below2"></div>
+        <div id="below3"></div>
+
+        <style type="text/css">
+            body {
+                font-size: 150%;
+            }
+            button, input {
+                font-size: 100%;
+            }
+            #top {
+                /* children are centered */
+                display: grid;
+                justify-content: center;
+            }
+            .top {
+                margin: 3px;
+                padding: 3px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: #F9E79F;
+                background-color: #FCF3CF;
+                text-align: center;
+            }
+            #consent_form {
+                display: block; /* also defined in start_experiment_with_consent_form() */
+                text-align: center;
+            }
+            #center_area {
+                /* children are positioned horizontally next to each other*/
+                display: flex; 
+                /* children are centered */
+                justify-content: center;
+                /* children are allowed to have different heights */
+                align-items: flex-start;
+            }
+            #below, #below2, #below3 {
+                text-align: center;
+            }
+            canvas {
+                outline-style: solid;
+            }
+            #box1 {
+                cursor: crosshair;
+            }
+            button {
+                cursor: pointer;
+            }
+        </style>
+        
+        <!-- local js files -->
+        <script src="jquery-1.11.2.min.js"> </script>
+        <script src="underscore-min.js"> </script>
+        <script src="lz-string.js"> </script>
+        <script src="patterns.js"> </script>
+        <script src="draw.js"> </script>
+        <script src="timeline.js"> </script>
+        <script src="intro.js"> </script>
+        <script src="debug.js"> </script>
+        <script src="generation_task.js"> </script>
+        <script src="exp.js"> </script>
+
+        <script>
+            $(document).ready(function() {
+                main();
+            });
+        </script>
+        
+        <noscript>
+            <h1>Warning: Javascript seems to be disabled</h1>
+            <p>This website requires that Javascript be enabled on your browser.</p>
+        </noscript>
+    </body>
+</html>
+
