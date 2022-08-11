@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>bahnhack viewer</title>
+    <link rel="stylesheet" type="text/css" href="bahnhack_viewer.css">
+  </head>
+  <body>
+    <div id="version">v1.2</div>
+    <div id='a'>
+      <textarea id="text1" placeholder="Neue Daten hier hinzufügen" cols="25" rows="5"></textarea>
+      <textarea id="text2" placeholder="Daten" cols="25" rows="5"></textarea>
+      <div id='b'>
+        <a id="share" href="#"></a>
+        <button id="button" onclick="process_data();">Display</button>  
+      </div>
+    </div>
+    <div id='bars'></div>
+    <script src="umbrella3.3.0.min.js"></script>
+    <script src="lz-string.min.js"></script>
+    <script src="display.js"></script>
+    <script src="process_data.js"></script>
+    <script src="tests.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+#version {
+	float: right;
+}
+
+#a {
+	/* children horizontally stacked */
+	display: flex;
+	flex-direction: row;
+}
+
+#a * {
+	margin: 2px;
+}
+
+#b {
+	/* children vertically stacked */
+	display: flex;
+	flex-direction: column;
+	/* children spread out with maximal space in between */
+	justify-content: space-between;
+}
+
+#bars {
+	font-family: Arial, sans-serif;
+	font-size: .8em;
+	margin: 10px;
+	/* make div scrollable*/
+	white-space: nowrap;
+	overflow: scroll;
+	/* children vertically stacked */
+	display: flex;
+	flex-direction: column;
+	/* only needed for .day_vertical_line positioning */
+	position: relative; 
+}
+
+#favorite, #normal, #discard {
+	/* children vertically stacked */
+	display: flex;
+	flex-direction: column;
+}
+
+#favorite {
+	margin-bottom: 15px;
+}
+
+#discard {
+	margin-top: 15px;
+	opacity: .5;
+}
+
+.bar_group {
+	display: inline-block;
+	/*background: linear-gradient(to right, white, lightgray)  repeat-x scroll;*/
+}
+
+.bar_group:not(:first-child) {
+  border-top: 1px solid lightgray;
+}
+
+.day_vertical_line {
+	z-index: -1;
+	border-left:  1px solid lightgray;
+	position: absolute; /* does not push .bar elements away */
+	top: 0px; /* starts at top of parent #bars which needs to have position: relative; otherwise the document is the reference parent https://stackoverflow.com/questions/13533153/how-can-i-get-overlapping-divs-with-relative-positions#comment18530232_13533163 */
+	/* distribute multiple .day_text along the vertical line */
+	display: flex;
+	flex-direction: column;
+	/* children spread out with maximal space in between */
+	justify-content: space-between;
+}
+
+.day_text {
+	padding-left: 4px;
+	color: lightgray;
+	font-size: 1.25em;
+}
+
+.bar {
+	left: 50px;
+	width: 150px;
+	position: relative;
+	/*background: linear-gradient(to right, #25c481, #25b7c4);*/
+	background: linear-gradient(to right, hsl(213.7, 100%, 55.7%), hsl(209.7, 80%, 55.7%));
+	/*background-color: hsla(223, 43%, 40%, 1);*/
+	/*background-color: hsl(0, 0%, 64.1%);*/
+	border-radius: 4px;
+	padding: 1px;
+	margin: 2px;
+	color: white;
+	cursor: pointer;
+	/* children vertically stacked */
+	display: flex;
+	flex-direction: column;
+}
+
+.bar div div {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+	border-radius: 3px;
+}
+
+.row1 {
+	/* children horizontally stacked */
+	display: flex;
+	flex-direction: row;
+	/* children centered */
+	justify-content: center;
+}
+
+.row2 {
+	/* children horizontally stacked */
+	display: flex;
+	flex-direction: row;
+	/* children spread out with maximal space in between */
+	justify-content: space-between;
+	/* vertically centered children */
+	align-items: center;
+}
+
+.row3 {
+	/* children horizontally stacked */
+	display: flex;
+	flex-direction: row;
+	/* children centered */
+	justify-content: center;
+	background: gray;
+}
+
+.preis {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.transparent {
+	color: transparent;
+}
