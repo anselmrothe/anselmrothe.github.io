@@ -1,3 +1,4 @@
+
 #version {
 	float: right;
 }
@@ -42,20 +43,31 @@
 
 #favorite {
 	margin-bottom: 15px;
+	background-color: #FFF9CC;
 }
 
 #discard {
 	margin-top: 15px;
+	border-top: 5px solid lightgray;
+	padding-top: 15px;
 	opacity: .5;
 }
 
 .bar_group {
 	display: inline-block;
-	/*background: linear-gradient(to right, white, lightgray)  repeat-x scroll;*/
 }
 
 .bar_group:not(:first-child) {
   border-top: 1px solid lightgray;
+}
+
+.bar_group_label {
+	color: lightgray;
+	font-size: .7em;
+	writing-mode: tb-rl;
+  transform: rotate(180deg);
+  position: absolute;
+	padding-bottom: 5px;
 }
 
 .day_vertical_line {
@@ -80,10 +92,7 @@
 	left: 50px;
 	width: 150px;
 	position: relative;
-	/*background: linear-gradient(to right, #25c481, #25b7c4);*/
 	background: linear-gradient(to right, hsl(213.7, 100%, 55.7%), hsl(209.7, 80%, 55.7%));
-	/*background-color: hsla(223, 43%, 40%, 1);*/
-	/*background-color: hsl(0, 0%, 64.1%);*/
 	border-radius: 4px;
 	padding: 1px;
 	margin: 2px;

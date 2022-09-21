@@ -7,14 +7,10 @@ setup_process_data = () => {
 process_data = notused => {
 	data = get_text2_data();
 	data = add_data_from_text1(data);
-	data = only_unique(data);
 	data = data.map(process_verbindung);
+	data = only_unique(data);
 	// feature: filter
 	// filter_data(d => d.preis < 80);
-	// date = {year:2022, month:7, day:30};
-	// time = {hour:15, minute:0};
-	// unix = date_time_to_unix(date, time);
-	// filter_data(d => d.ankunft_unix < unix);
 
 	// feature: sorting
 	// sort_data('umsteigen');
@@ -24,18 +20,13 @@ process_data = notused => {
 	sort_data('favorit');
 
 	// feature: groups
-	make_groups('preis');
+	make_groups('preis', format_preis);
 
 	BARS_WIDTH = window.innerWidth * .95 || 500;
-	display_data();	
+	display_data();
 	
 	update_text2(data);
 	update_share_link(data);
-
-	// func = () => {
-	// 	u('.bar').scroll();
-	// }
-	// setTimeout(func, 1*1000);
 }
 
 get_text2_data = () => {
@@ -66,13 +57,16 @@ update_text2 = data => {
 only_unique = data => {
 	data_as_object = {};
 	for (d of data) {
-		// use hash as unique id
-		d.hash = ''; // compute hash without old hash value if it did exist
-		hash = hash_cyrb53(JSON.stringify(d));
-		d.hash = hash; // save hash for later as id
-		data_as_object[hash] = d;
+		dna = compute_dna(d);
+		data_as_object[dna] = d;
 	}
 	return Object.values(data_as_object);
+}
+
+compute_dna = d => {
+	values = ['Von', 'Nach', 'abfahrt_unix', 'ankunft_unix', 'preis', 'umsteigen'].map(e => d[e]);
+	str = values.join(', ');
+	return str;
 }
 
 process_verbindung = d => {
@@ -91,10 +85,6 @@ process_verbindung = d => {
 	d.ankunft_unix = date_time_to_unix(date, time2); // takes care of 62 min -> 1 hour 2min etc.
 	d.ankunft_str = d.Ankunft;
 	
-	// duration_in_minutes = (d.ankunft_unix - d.abfahrt_unix) / 1000 / 60;
-	// duration_in_minutes2 = d.dauer.h * 60 + d.dauer.min;
-	// duration_in_minutes === duration_in_minutes2;
-
 	d.preis = parse_preis(d.Preis);
 	d.umsteigen = parse_umsteigen(d.Umstiege);
 
@@ -164,39 +154,24 @@ sort_data = key => {
 	});
 }
 
-make_groups = key => {
-	key_for_groups = key;
-	groups = [];
+make_groups = (key, format_group_label) => {
+	get_group_id = d => key+'-'+d[key];
+	get_group_label = d => format_group_label(d[key]);
+	groups = {};
 	data.forEach(d => {
-		label = group_label(d);
-		if (!groups.includes(label)) groups.push(label);
+		group_id = get_group_id(d);
+		group_label = get_group_label(d);
+		groups[group_id] = group_label;
 	});
 }
-
-group_label = d => {
-	return key_for_groups+'-'+d[key_for_groups];
-}
-
-hash_cyrb53 = (str, seed = 0) => {
-    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
-    for (let i = 0, ch; i < str.length; i++) {
-        ch = str.charCodeAt(i);
-        h1 = Math.imul(h1 ^ ch, 2654435761);
-        h2 = Math.imul(h2 ^ ch, 1597334677);
-    }
-    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
-    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
-    return 4294967296 * (2097151 & h2) + (h1>>>0);
-};
 
 retrieve_data_from_url_param = () => {
 	params = new URLSearchParams(location.search);
 	url_data_txt = params.get('data');
 	if (url_data_txt) {
+		// data_txt = JSON.stringify(data, null, 1);
 		data_txt = LZString.decompressFromEncodedURIComponent(url_data_txt);
 		data = JSON.parse(data_txt);
-		// data_txt = JSON.stringify(data, null, 1);
-		// data = JSON.parse(data_txt);
 		update_text2(data);
 	}
 }
@@ -209,7 +184,7 @@ update_share_link = data => {
 	url.searchParams.set('data', base64encoded);
 
 	u('#share')
-	.text('Link für genau diese Ansicht')
+	.text('Link for this display and data')
 	.attr('href', url);
 }
 

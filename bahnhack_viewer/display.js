@@ -23,7 +23,6 @@ display_data = () => {
 
 	create_vertical_lines_for_days();
 	
-	// maybe change to '.bar_group' ... each...
 	u('#bars').first().style.width = (BARS_WIDTH+50)+'px'; // manually set width, add 50px margin on right side
 
 	if (any_bar_overflow && (BARS_WIDTH < 4000)) {
@@ -39,9 +38,11 @@ create_big_status_groups = () => {
 }
 
 create_groups = () => {
-	groups.forEach(label => {
-		bar_group = u('<div>').attr('id', label);
+	Object.keys(groups).forEach(group_id => {
+		bar_group_label = u(`<div class='bar_group_label'>${groups[group_id]}</div>`);
+		bar_group = u('<div>').attr('id', group_id);
 		bar_group.addClass('bar_group');
+		bar_group.append(bar_group_label);
 		u('#normal').append(bar_group);
 	});
 }
@@ -68,8 +69,8 @@ create_bar = (d, i) => {
 	bar.append(row2);
 
 	if (d.status == 'normal') {
-		label = group_label(d)
-		u(`#${label}.bar_group`).append(bar);
+		group_id = get_group_id(d);
+		u(`#${group_id}.bar_group`).append(bar);
 	} else {
 		u(`#${d.status}`).append(bar); // #favorite or #discard
 	}
@@ -82,9 +83,9 @@ create_bar = (d, i) => {
 			let this_bar = u(this);
 			let this_i = i;
 			row3 = u('<div>').addClass('row3');
-			favorite = u('<button>').text('Favorit ♥');
+			favorite = u('<button>').text('Favorite ♥');
 			normal = u('<button>').text('Normal');
-			discard = u('<button>').text('Ignorieren ☠');
+			discard = u('<button>').text('Discard ☠');
 			favorite.on('click', e => {
 				data[this_i].status = 'favorite';
 				update_text2(data);
@@ -116,32 +117,11 @@ create_bar = (d, i) => {
 	hue_duration = hue_high * duration_attractiveness;
 	hue_cost = hue_high * cost_attractiveness;
 
-	// bar.find('.dauer').first()
-
-	// bar.find('.dauer').first().style.backgroundColor = `hsla(${hue_duration}, 68%, 46%, 1)`;
-	// bar.find('.preis').first().style.backgroundColor = `hsla(${hue_cost}, 68%, 46%, 1)`;
-
-	// bar.find('.dauer').first().style.backgroundColor = `hsla(${hue_duration}, 53%, 50%, 1)`;
-	// bar.find('.preis').first().style.backgroundColor = `hsla(${hue_cost}, 53%, 50%, 1)`;
-
 	bar.find('.dauer').first().style.backgroundColor = `hsla(${hue_duration}, 50%, 50%, 1)`;
 	bar.find('.preis').first().style.backgroundColor = `hsla(${hue_cost}, 50%, 50%, 1)`;
 
-	// hue = hue_low;
-	// bar.first().style.background = `linear-gradient(to bottom, hsla(${hue_top}, 68%, 46%, 1), hsla(${hue_bottom}, 68%, 46%, 1))`
-
-	// bar.first().style.background = `linear-gradient(to right, rgb(37,196,129), rgb(37,183,196))`
-	// bar.first().style.background = `linear-gradient(to right, rgb(157,196,129), rgb(157,183,196))`
-	// bar.first().style.background = `linear-gradient(to right, hsl(155, 68%, 46%), hsl(185, 68%, 46%))`
-	// bar.first().style.background = `linear-gradient(to right, hsla(31, 68%, 46%, 1), hsla(61, 68%, 46%, 1))`
-	// bar.first().style.background = `linear-gradient(to right, #25c481, #25b7c4)`
-	// document.getElementsByTagName("body")[0].style.backgroundImage = 'linear-gradient(45deg, rgb(' + lessOne + ',' + lessTwo + ',' + lessThree + '), rgb(' + one + ',' + two + ',' + three + '), rgb(' + moreOne + ',' + moreTwo + ',' + moreThree + '))'
-
-
 	// feature: opacity
-	// cost_attractiveness = Math.max(cheapest/d.preis || 0.6, 0.6);
 	attractiveness = d.dauer_in_minuten/d.preis;
-	// bar.first().style.opacity = cost_attractiveness;
 
 	if (html_bar_overflown(bar)) any_bar_overflow = true;
 }
@@ -162,10 +142,6 @@ html_bar_overflown = bar => {
 }
 
 format_dauer = dauer => {
-  // h = Math.floor(mins / 60);
-  // m = mins % 60;
-  // h = h < 10 ? '0' + h : h;
-  // m = m < 10 ? '0' + m : m;
   h = (dauer.h > 0 ? dauer.h+'h ' : '')
   min = dauer.min+'min';
   return h+min;
@@ -202,8 +178,6 @@ create_vertical_lines_for_days = () => {
 			left: ${x_pos}px;
 			`);
 		day_line.append(u('<div>').addClass('day_text').text(days[x_pos]));
-		// day_line.append(u('<div>').addClass('day_text').text(days[x_pos]));
-		// day_line.append(u('<div>').addClass('day_text').text(days[x_pos]));
 
 		u('#bars').append(day_line);
 	}
